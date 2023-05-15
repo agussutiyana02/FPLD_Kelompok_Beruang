@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/FPLD/data/train/images
+val: /content/drive/MyDrive/FPLD/data/valid/images
+test: /content/drive/MyDrive/FPLD/data/test/images
+
+nc: 1
+names: ['pengunjung']
+
+roboflow:
+  workspace: project
+  project: deteksi-pengunjung-perpustakaan
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/project/deteksi-pengunjung-perpustakaan/dataset/1
